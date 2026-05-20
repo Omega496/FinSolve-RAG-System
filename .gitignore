@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Agent files
+AGENT_SKILLS.md
+AGENT.md
+AGENT.original.md
