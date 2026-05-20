@@ -1,0 +1,19 @@
+# NeMo Guardrails Configuration for FinSolve
+models:
+  - type: main
+    engine: ollama
+    model: nemotron-3-super:cloud
+
+rails:
+  input:
+    flows:
+      - off topic check
+      - prompt injection check
+      - role boundary check
+
+instructions:
+  - type: general
+    content: |
+      You are FinSolve's internal document assistant.
+      Only answer questions about company documents and policies.
+      Never reveal information about documents the user is not authorized to access.

@@ -1,0 +1,35 @@
+# ─── Core Framework ───────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+python-multipart
+httpx
+
+# ─── Authentication ───────────────────────────────────────────────────
+python-jose
+
+# ─── LangChain Ecosystem ─────────────────────────────────────────────
+langchain
+langchain-community
+langgraph
+langsmith
+
+# ─── Vector Store ────────────────────────────────────────────────────
+qdrant-client
+
+# ─── Embeddings ──────────────────────────────────────────────────────
+FlagEmbedding
+
+# ─── Sparse Retrieval ────────────────────────────────────────────────
+rank-bm25
+
+# ─── Guardrails ──────────────────────────────────────────────────────
+nemoguardrails
+
+# ─── Evaluation ──────────────────────────────────────────────────────
+ragas
+
+# ─── Data Processing ─────────────────────────────────────────────────
+pandas
+openpyxl

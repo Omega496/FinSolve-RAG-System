@@ -1,0 +1,452 @@
+{
+  "communities": {
+    "0": [
+      "backend_ingestion_chunker_py",
+      "ingestion_chunker_build_breadcrumb",
+      "ingestion_chunker_chunk",
+      "ingestion_chunker_chunk_excel_file",
+      "ingestion_chunker_chunk_excel_row",
+      "ingestion_chunker_chunk_markdown",
+      "ingestion_chunker_estimate_tokens",
+      "ingestion_chunker_extract_table_block",
+      "ingestion_chunker_is_appendix_section",
+      "ingestion_chunker_is_ascii_diagram",
+      "ingestion_chunker_is_table_block",
+      "ingestion_chunker_parse_headers",
+      "ingestion_chunker_rationale_1",
+      "ingestion_chunker_rationale_119",
+      "ingestion_chunker_rationale_126",
+      "ingestion_chunker_rationale_152",
+      "ingestion_chunker_rationale_159",
+      "ingestion_chunker_rationale_165",
+      "ingestion_chunker_rationale_37",
+      "ingestion_chunker_rationale_397",
+      "ingestion_chunker_rationale_435",
+      "ingestion_chunker_rationale_55",
+      "ingestion_chunker_rationale_60",
+      "ingestion_chunker_rationale_90"
+    ],
+    "1": [
+      "auth_dependencies_get_current_user",
+      "auth_dependencies_rationale_1",
+      "auth_dependencies_rationale_16",
+      "auth_jwt_handler_create_jwt",
+      "auth_jwt_handler_decode_token_from_cookie",
+      "auth_jwt_handler_get_role_from_token",
+      "auth_jwt_handler_rationale_1",
+      "auth_jwt_handler_rationale_107",
+      "auth_jwt_handler_rationale_133",
+      "auth_jwt_handler_rationale_34",
+      "auth_jwt_handler_rationale_65",
+      "auth_jwt_handler_rationale_89",
+      "auth_jwt_handler_set_jwt_cookie",
+      "auth_jwt_handler_verify_jwt",
+      "backend_auth_dependencies_py",
+      "backend_auth_jwt_handler_py",
+      "backend_main_login",
+      "backend_main_rationale_96"
+    ],
+    "2": [
+      "backend_ingestion_validator_py",
+      "ingestion_validator_enforce_financial_rules",
+      "ingestion_validator_enforce_hr_record_rules",
+      "ingestion_validator_enforce_salary_rules",
+      "ingestion_validator_enforce_technical_rules",
+      "ingestion_validator_ensure_access_roles",
+      "ingestion_validator_flag_low_confidence",
+      "ingestion_validator_rationale_1",
+      "ingestion_validator_rationale_108",
+      "ingestion_validator_rationale_129",
+      "ingestion_validator_rationale_142",
+      "ingestion_validator_rationale_157",
+      "ingestion_validator_rationale_32",
+      "ingestion_validator_rationale_41",
+      "ingestion_validator_rationale_75",
+      "ingestion_validator_rationale_86",
+      "ingestion_validator_validate_metadata",
+      "ingestion_validator_validationresult"
+    ],
+    "3": [
+      "backend_ingestion_metadata_tagger_py",
+      "ingestion_metadata_tagger_call_ollama",
+      "ingestion_metadata_tagger_get_default_metadata",
+      "ingestion_metadata_tagger_merge_metadata",
+      "ingestion_metadata_tagger_parse_json_response",
+      "ingestion_metadata_tagger_rationale_1",
+      "ingestion_metadata_tagger_rationale_116",
+      "ingestion_metadata_tagger_rationale_157",
+      "ingestion_metadata_tagger_rationale_197",
+      "ingestion_metadata_tagger_rationale_218",
+      "ingestion_metadata_tagger_rationale_266",
+      "ingestion_metadata_tagger_rationale_77",
+      "ingestion_metadata_tagger_tag_metadata",
+      "ingestion_metadata_tagger_validate_metadata"
+    ],
+    "4": [
+      "backend_main_get_me",
+      "backend_main_health_check",
+      "backend_main_loginrequest",
+      "backend_main_loginresponse",
+      "backend_main_logout",
+      "backend_main_py",
+      "backend_main_rationale_1",
+      "backend_main_rationale_122",
+      "backend_main_rationale_134",
+      "backend_main_rationale_145",
+      "backend_main_userresponse",
+      "basemodel"
+    ],
+    "5": [
+      "backend_ingestion_embedder_py",
+      "ingestion_embedder_clear_cache",
+      "ingestion_embedder_encode_both",
+      "ingestion_embedder_encode_dense",
+      "ingestion_embedder_encode_sparse",
+      "ingestion_embedder_get_model",
+      "ingestion_embedder_rationale_1",
+      "ingestion_embedder_rationale_115",
+      "ingestion_embedder_rationale_20",
+      "ingestion_embedder_rationale_35",
+      "ingestion_embedder_rationale_56",
+      "ingestion_embedder_rationale_77"
+    ],
+    "6": [
+      "backend_ingestion_ingest_py",
+      "ingestion_ingest_chunk_file",
+      "ingestion_ingest_ingest_directory",
+      "ingestion_ingest_main",
+      "ingestion_ingest_print_summary",
+      "ingestion_ingest_rationale_1",
+      "ingestion_ingest_rationale_159",
+      "ingestion_ingest_rationale_188",
+      "ingestion_ingest_rationale_33",
+      "ingestion_validator_apply_defaults",
+      "ingestion_validator_rationale_198"
+    ],
+    "7": [
+      "backend_retrieval_qdrant_client_py",
+      "retrieval_qdrant_client_create_payload_indexes",
+      "retrieval_qdrant_client_ensure_collection",
+      "retrieval_qdrant_client_get_qdrant_client",
+      "retrieval_qdrant_client_initialize_collection",
+      "retrieval_qdrant_client_rationale_1",
+      "retrieval_qdrant_client_rationale_116",
+      "retrieval_qdrant_client_rationale_33",
+      "retrieval_qdrant_client_rationale_48",
+      "retrieval_qdrant_client_rationale_85"
+    ],
+    "8": [
+      "backend_retrieval_rbac_filter_py",
+      "retrieval_rbac_filter_build_finance_filter",
+      "retrieval_rbac_filter_build_rbac_filter",
+      "retrieval_rbac_filter_rationale_1",
+      "retrieval_rbac_filter_rationale_42",
+      "retrieval_rbac_filter_rationale_94"
+    ],
+    "9": [
+      "finsolve_rag_system_main_main",
+      "main_py"
+    ],
+    "10": [
+      "backend_guardrails_pii_scanner_py"
+    ],
+    "11": [
+      "backend_graph_state_py"
+    ],
+    "12": [
+      "backend_graph_pipeline_py"
+    ],
+    "13": [
+      "backend_graph_nodes_output_scanner_py"
+    ],
+    "14": [
+      "backend_graph_nodes_retriever_py"
+    ],
+    "15": [
+      "backend_graph_nodes_memory_update_py"
+    ],
+    "16": [
+      "backend_graph_nodes_input_guardrail_py"
+    ],
+    "17": [
+      "backend_graph_nodes_generator_py"
+    ],
+    "18": [
+      "backend_graph_nodes_rbac_router_py"
+    ],
+    "19": [
+      "backend_graph_nodes_parent_child_swap_py"
+    ],
+    "20": [
+      "backend_retrieval_hybrid_retriever_py"
+    ],
+    "21": [
+      "backend_monitoring_audit_logger_py"
+    ],
+    "22": [
+      "backend_monitoring_langsmith_tracer_py"
+    ],
+    "23": [
+      "backend_monitoring_ragas_evaluator_py"
+    ],
+    "24": [
+      "frontend_package_json"
+    ],
+    "25": [
+      "frontend_tailwind_config_js"
+    ],
+    "26": [
+      "frontend_src_app_jsx"
+    ],
+    "27": [
+      "frontend_src_main_jsx"
+    ],
+    "28": [
+      "frontend_src_hooks_usestream_js"
+    ],
+    "29": [
+      "frontend_src_hooks_useauth_js"
+    ],
+    "30": [
+      "frontend_src_components_auth_protectedroute_jsx"
+    ],
+    "31": [
+      "frontend_src_components_auth_loginpage_jsx"
+    ],
+    "32": [
+      "frontend_src_components_layout_conversationhistory_jsx"
+    ],
+    "33": [
+      "frontend_src_components_layout_rolebadge_jsx"
+    ],
+    "34": [
+      "frontend_src_components_layout_sidebar_jsx"
+    ],
+    "35": [
+      "frontend_src_components_chat_messagelist_jsx"
+    ],
+    "36": [
+      "frontend_src_components_chat_usermessage_jsx"
+    ],
+    "37": [
+      "frontend_src_components_chat_sourcecitations_jsx"
+    ],
+    "38": [
+      "frontend_src_components_chat_queryinput_jsx"
+    ],
+    "39": [
+      "frontend_src_components_chat_streamingindicator_jsx"
+    ],
+    "40": [
+      "frontend_src_components_chat_statusbar_jsx"
+    ],
+    "41": [
+      "frontend_src_components_chat_assistantmessage_jsx"
+    ],
+    "42": [
+      "frontend_src_components_chat_guardrailblockedmessage_jsx"
+    ],
+    "43": [
+      "frontend_src_components_admin_auditlogviewer_jsx"
+    ],
+    "44": [
+      "frontend_src_context_authcontext_jsx"
+    ],
+    "45": [
+      "frontend_src_context_chatcontext_jsx"
+    ],
+    "46": [
+      "frontend_src_api_client_js"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12318840579710146,
+    "1": 0.13725490196078433,
+    "2": 0.1568627450980392,
+    "3": 0.2087912087912088,
+    "4": 0.21212121212121213,
+    "5": 0.21212121212121213,
+    "6": 0.23636363636363636,
+    "7": 0.26666666666666666,
+    "8": 0.4,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0,
+    "37": 1.0,
+    "38": 1.0,
+    "39": 1.0,
+    "40": 1.0,
+    "41": 1.0,
+    "42": 1.0,
+    "43": 1.0,
+    "44": 1.0,
+    "45": 1.0,
+    "46": 1.0
+  },
+  "gods": [
+    {
+      "id": "ingestion_ingest_ingest_directory",
+      "label": "ingest_directory()",
+      "degree": 11
+    },
+    {
+      "id": "ingestion_chunker_chunk_markdown",
+      "label": "chunk_markdown()",
+      "degree": 11
+    },
+    {
+      "id": "ingestion_validator_validate_metadata",
+      "label": "validate_metadata()",
+      "degree": 10
+    },
+    {
+      "id": "ingestion_metadata_tagger_tag_metadata",
+      "label": "tag_metadata()",
+      "degree": 6
+    },
+    {
+      "id": "backend_main_login",
+      "label": "login()",
+      "degree": 5
+    },
+    {
+      "id": "auth_jwt_handler_verify_jwt",
+      "label": "verify_jwt()",
+      "degree": 5
+    },
+    {
+      "id": "retrieval_qdrant_client_initialize_collection",
+      "label": "initialize_collection()",
+      "degree": 5
+    },
+    {
+      "id": "ingestion_metadata_tagger_call_ollama",
+      "label": "_call_ollama()",
+      "degree": 5
+    },
+    {
+      "id": "ingestion_ingest_chunk_file",
+      "label": "_chunk_file()",
+      "degree": 5
+    },
+    {
+      "id": "ingestion_chunker_chunk_excel_row",
+      "label": "chunk_excel_row()",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "ingest_directory()",
+      "target": "get_qdrant_client()",
+      "source_files": [
+        "backend/ingestion/ingest.py",
+        "backend/retrieval/qdrant_client.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "ingest_directory()",
+      "target": "ensure_collection()",
+      "source_files": [
+        "backend/ingestion/ingest.py",
+        "backend/retrieval/qdrant_client.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "ingest_directory()",
+      "target": "validate_metadata()",
+      "source_files": [
+        "backend/ingestion/ingest.py",
+        "backend/ingestion/validator.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "ingest_directory()",
+      "target": "tag_metadata()",
+      "source_files": [
+        "backend/ingestion/ingest.py",
+        "backend/ingestion/metadata_tagger.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    },
+    {
+      "source": "ingest_directory()",
+      "target": "encode_both()",
+      "source_files": [
+        "backend/ingestion/ingest.py",
+        "backend/ingestion/embedder.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `ingest_directory()` connect `Community 6` to `Community 2`, `Community 3`, `Community 5`, `Community 7`?",
+      "why": "High betweenness centrality (0.073) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `validate_metadata()` connect `Community 2` to `Community 6`?",
+      "why": "High betweenness centrality (0.030) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `_chunk_file()` connect `Community 6` to `Community 0`?",
+      "why": "High betweenness centrality (0.027) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `FinSolve RAG System \u2014 FastAPI Application Entry Point`, `Authenticate user, create JWT, set httpOnly cookie.     Returns user name and ro`, `Clear the httpOnly authentication cookie.` to the rest of the system?",
+      "why": "60 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.12318840579710146 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13725490196078433 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

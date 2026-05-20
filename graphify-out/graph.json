@@ -1,0 +1,3293 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "main_py",
+      "community": 9,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "finsolve_rag_system_main_main",
+      "community": 9,
+      "norm_label": "main()"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "id": "backend_main_py",
+      "community": 4,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "LoginRequest",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L77",
+      "id": "backend_main_loginrequest",
+      "community": 4,
+      "norm_label": "loginrequest"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "basemodel",
+      "community": 4,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "LoginResponse",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L82",
+      "id": "backend_main_loginresponse",
+      "community": 4,
+      "norm_label": "loginresponse"
+    },
+    {
+      "label": "UserResponse",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L87",
+      "id": "backend_main_userresponse",
+      "community": 4,
+      "norm_label": "userresponse"
+    },
+    {
+      "label": "login()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L95",
+      "id": "backend_main_login",
+      "community": 1,
+      "norm_label": "login()"
+    },
+    {
+      "label": "logout()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L121",
+      "id": "backend_main_logout",
+      "community": 4,
+      "norm_label": "logout()"
+    },
+    {
+      "label": "get_me()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L133",
+      "id": "backend_main_get_me",
+      "community": 4,
+      "norm_label": "get_me()"
+    },
+    {
+      "label": "health_check()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L144",
+      "id": "backend_main_health_check",
+      "community": 4,
+      "norm_label": "health_check()"
+    },
+    {
+      "label": "FinSolve RAG System \u2014 FastAPI Application Entry Point",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "id": "backend_main_rationale_1",
+      "community": 4,
+      "norm_label": "finsolve rag system \u2014 fastapi application entry point"
+    },
+    {
+      "label": "Authenticate user, create JWT, set httpOnly cookie.     Returns user name and ro",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L96",
+      "id": "backend_main_rationale_96",
+      "community": 1,
+      "norm_label": "authenticate user, create jwt, set httponly cookie.     returns user name and ro"
+    },
+    {
+      "label": "Clear the httpOnly authentication cookie.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L122",
+      "id": "backend_main_rationale_122",
+      "community": 4,
+      "norm_label": "clear the httponly authentication cookie."
+    },
+    {
+      "label": "Protected route \u2014 returns current user's name, role, and session_id.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "id": "backend_main_rationale_134",
+      "community": 4,
+      "norm_label": "protected route \u2014 returns current user's name, role, and session_id."
+    },
+    {
+      "label": "Health check endpoint for Docker and load balancers.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L145",
+      "id": "backend_main_rationale_145",
+      "community": 4,
+      "norm_label": "health check endpoint for docker and load balancers."
+    },
+    {
+      "label": "jwt_handler.py",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L1",
+      "id": "backend_auth_jwt_handler_py",
+      "community": 1,
+      "norm_label": "jwt_handler.py"
+    },
+    {
+      "label": "create_jwt()",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L27",
+      "id": "auth_jwt_handler_create_jwt",
+      "community": 1,
+      "norm_label": "create_jwt()"
+    },
+    {
+      "label": "verify_jwt()",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L64",
+      "id": "auth_jwt_handler_verify_jwt",
+      "community": 1,
+      "norm_label": "verify_jwt()"
+    },
+    {
+      "label": "set_jwt_cookie()",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L88",
+      "id": "auth_jwt_handler_set_jwt_cookie",
+      "community": 1,
+      "norm_label": "set_jwt_cookie()"
+    },
+    {
+      "label": "get_role_from_token()",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L106",
+      "id": "auth_jwt_handler_get_role_from_token",
+      "community": 1,
+      "norm_label": "get_role_from_token()"
+    },
+    {
+      "label": "decode_token_from_cookie()",
+      "file_type": "code",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L132",
+      "id": "auth_jwt_handler_decode_token_from_cookie",
+      "community": 1,
+      "norm_label": "decode_token_from_cookie()"
+    },
+    {
+      "label": "JWT creation, verification, cookie setting. Uses python-jose for JWT operations.",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L1",
+      "id": "auth_jwt_handler_rationale_1",
+      "community": 1,
+      "norm_label": "jwt creation, verification, cookie setting. uses python-jose for jwt operations."
+    },
+    {
+      "label": "Create a JWT with the FinSolve payload structure.      Args:         employee_id",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L34",
+      "id": "auth_jwt_handler_rationale_34",
+      "community": 1,
+      "norm_label": "create a jwt with the finsolve payload structure.      args:         employee_id"
+    },
+    {
+      "label": "Verify and decode a JWT.      Args:         token: JWT string to verify      Ret",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L65",
+      "id": "auth_jwt_handler_rationale_65",
+      "community": 1,
+      "norm_label": "verify and decode a jwt.      args:         token: jwt string to verify      ret"
+    },
+    {
+      "label": "Set the JWT as an httpOnly cookie on the response.      Args:         response:",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L89",
+      "id": "auth_jwt_handler_rationale_89",
+      "community": 1,
+      "norm_label": "set the jwt as an httponly cookie on the response.      args:         response:"
+    },
+    {
+      "label": "Extract and return the role from a verified JWT.      Args:         token: JWT s",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L107",
+      "id": "auth_jwt_handler_rationale_107",
+      "community": 1,
+      "norm_label": "extract and return the role from a verified jwt.      args:         token: jwt s"
+    },
+    {
+      "label": "Decode a JWT from a cookie value.      Args:         cookie_value: Cookie value",
+      "file_type": "rationale",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L133",
+      "id": "auth_jwt_handler_rationale_133",
+      "community": 1,
+      "norm_label": "decode a jwt from a cookie value.      args:         cookie_value: cookie value"
+    },
+    {
+      "label": "dependencies.py",
+      "file_type": "code",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L1",
+      "id": "backend_auth_dependencies_py",
+      "community": 1,
+      "norm_label": "dependencies.py"
+    },
+    {
+      "label": "get_current_user()",
+      "file_type": "code",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L13",
+      "id": "auth_dependencies_get_current_user",
+      "community": 1,
+      "norm_label": "get_current_user()"
+    },
+    {
+      "label": "FastAPI dependency for JWT-based route protection. Reads JWT from httpOnly cooki",
+      "file_type": "rationale",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L1",
+      "id": "auth_dependencies_rationale_1",
+      "community": 1,
+      "norm_label": "fastapi dependency for jwt-based route protection. reads jwt from httponly cooki"
+    },
+    {
+      "label": "FastAPI dependency that extracts and verifies the JWT from httpOnly cookie.",
+      "file_type": "rationale",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L16",
+      "id": "auth_dependencies_rationale_16",
+      "community": 1,
+      "norm_label": "fastapi dependency that extracts and verifies the jwt from httponly cookie."
+    },
+    {
+      "label": "pii_scanner.py",
+      "file_type": "code",
+      "source_file": "backend/guardrails/pii_scanner.py",
+      "source_location": "L1",
+      "id": "backend_guardrails_pii_scanner_py",
+      "community": 10,
+      "norm_label": "pii_scanner.py"
+    },
+    {
+      "label": "state.py",
+      "file_type": "code",
+      "source_file": "backend/graph/state.py",
+      "source_location": "L1",
+      "id": "backend_graph_state_py",
+      "community": 11,
+      "norm_label": "state.py"
+    },
+    {
+      "label": "pipeline.py",
+      "file_type": "code",
+      "source_file": "backend/graph/pipeline.py",
+      "source_location": "L1",
+      "id": "backend_graph_pipeline_py",
+      "community": 12,
+      "norm_label": "pipeline.py"
+    },
+    {
+      "label": "output_scanner.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/output_scanner.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_output_scanner_py",
+      "community": 13,
+      "norm_label": "output_scanner.py"
+    },
+    {
+      "label": "retriever.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/retriever.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_retriever_py",
+      "community": 14,
+      "norm_label": "retriever.py"
+    },
+    {
+      "label": "memory_update.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/memory_update.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_memory_update_py",
+      "community": 15,
+      "norm_label": "memory_update.py"
+    },
+    {
+      "label": "input_guardrail.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/input_guardrail.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_input_guardrail_py",
+      "community": 16,
+      "norm_label": "input_guardrail.py"
+    },
+    {
+      "label": "generator.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/generator.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_generator_py",
+      "community": 17,
+      "norm_label": "generator.py"
+    },
+    {
+      "label": "rbac_router.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/rbac_router.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_rbac_router_py",
+      "community": 18,
+      "norm_label": "rbac_router.py"
+    },
+    {
+      "label": "parent_child_swap.py",
+      "file_type": "code",
+      "source_file": "backend/graph/nodes/parent_child_swap.py",
+      "source_location": "L1",
+      "id": "backend_graph_nodes_parent_child_swap_py",
+      "community": 19,
+      "norm_label": "parent_child_swap.py"
+    },
+    {
+      "label": "qdrant_client.py",
+      "file_type": "code",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L1",
+      "id": "backend_retrieval_qdrant_client_py",
+      "community": 7,
+      "norm_label": "qdrant_client.py"
+    },
+    {
+      "label": "get_qdrant_client()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L32",
+      "id": "retrieval_qdrant_client_get_qdrant_client",
+      "community": 7,
+      "norm_label": "get_qdrant_client()"
+    },
+    {
+      "label": "initialize_collection()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L47",
+      "id": "retrieval_qdrant_client_initialize_collection",
+      "community": 7,
+      "norm_label": "initialize_collection()"
+    },
+    {
+      "label": "_create_payload_indexes()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L84",
+      "id": "retrieval_qdrant_client_create_payload_indexes",
+      "community": 7,
+      "norm_label": "_create_payload_indexes()"
+    },
+    {
+      "label": "ensure_collection()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L115",
+      "id": "retrieval_qdrant_client_ensure_collection",
+      "community": 7,
+      "norm_label": "ensure_collection()"
+    },
+    {
+      "label": "Qdrant connection + collection setup. Supports hybrid retrieval (dense + sparse",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L1",
+      "id": "retrieval_qdrant_client_rationale_1",
+      "community": 7,
+      "norm_label": "qdrant connection + collection setup. supports hybrid retrieval (dense + sparse"
+    },
+    {
+      "label": "Get or create a singleton Qdrant client connection.      Returns:         Connec",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L33",
+      "id": "retrieval_qdrant_client_rationale_33",
+      "community": 7,
+      "norm_label": "get or create a singleton qdrant client connection.      returns:         connec"
+    },
+    {
+      "label": "Create the finsolve_chunks collection if it doesn't exist.     Configures:",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L48",
+      "id": "retrieval_qdrant_client_rationale_48",
+      "community": 7,
+      "norm_label": "create the finsolve_chunks collection if it doesn't exist.     configures:"
+    },
+    {
+      "label": "Create payload indexes for efficient metadata filtering.      Indexes:         -",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L85",
+      "id": "retrieval_qdrant_client_rationale_85",
+      "community": 7,
+      "norm_label": "create payload indexes for efficient metadata filtering.      indexes:         -"
+    },
+    {
+      "label": "Ensure collection exists and is properly configured.     Safe to call multiple t",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L116",
+      "id": "retrieval_qdrant_client_rationale_116",
+      "community": 7,
+      "norm_label": "ensure collection exists and is properly configured.     safe to call multiple t"
+    },
+    {
+      "label": "hybrid_retriever.py",
+      "file_type": "code",
+      "source_file": "backend/retrieval/hybrid_retriever.py",
+      "source_location": "L1",
+      "id": "backend_retrieval_hybrid_retriever_py",
+      "community": 20,
+      "norm_label": "hybrid_retriever.py"
+    },
+    {
+      "label": "rbac_filter.py",
+      "file_type": "code",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L1",
+      "id": "backend_retrieval_rbac_filter_py",
+      "community": 8,
+      "norm_label": "rbac_filter.py"
+    },
+    {
+      "label": "build_rbac_filter()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L41",
+      "id": "retrieval_rbac_filter_build_rbac_filter",
+      "community": 8,
+      "norm_label": "build_rbac_filter()"
+    },
+    {
+      "label": "_build_finance_filter()",
+      "file_type": "code",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L90",
+      "id": "retrieval_rbac_filter_build_finance_filter",
+      "community": 8,
+      "norm_label": "_build_finance_filter()"
+    },
+    {
+      "label": "Qdrant payload filter builder per role.  Enforces RBAC at the retrieval layer \u2014",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L1",
+      "id": "retrieval_rbac_filter_rationale_1",
+      "community": 8,
+      "norm_label": "qdrant payload filter builder per role.  enforces rbac at the retrieval layer \u2014"
+    },
+    {
+      "label": "Build a Qdrant payload filter that enforces RBAC for the given role.      The fi",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L42",
+      "id": "retrieval_rbac_filter_rationale_42",
+      "community": 8,
+      "norm_label": "build a qdrant payload filter that enforces rbac for the given role.      the fi"
+    },
+    {
+      "label": "Build filter for finance role with marketing expense-only restriction.      Fina",
+      "file_type": "rationale",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L94",
+      "id": "retrieval_rbac_filter_rationale_94",
+      "community": 8,
+      "norm_label": "build filter for finance role with marketing expense-only restriction.      fina"
+    },
+    {
+      "label": "audit_logger.py",
+      "file_type": "code",
+      "source_file": "backend/monitoring/audit_logger.py",
+      "source_location": "L1",
+      "id": "backend_monitoring_audit_logger_py",
+      "community": 21,
+      "norm_label": "audit_logger.py"
+    },
+    {
+      "label": "langsmith_tracer.py",
+      "file_type": "code",
+      "source_file": "backend/monitoring/langsmith_tracer.py",
+      "source_location": "L1",
+      "id": "backend_monitoring_langsmith_tracer_py",
+      "community": 22,
+      "norm_label": "langsmith_tracer.py"
+    },
+    {
+      "label": "ragas_evaluator.py",
+      "file_type": "code",
+      "source_file": "backend/monitoring/ragas_evaluator.py",
+      "source_location": "L1",
+      "id": "backend_monitoring_ragas_evaluator_py",
+      "community": 23,
+      "norm_label": "ragas_evaluator.py"
+    },
+    {
+      "label": "validator.py",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L1",
+      "id": "backend_ingestion_validator_py",
+      "community": 2,
+      "norm_label": "validator.py"
+    },
+    {
+      "label": "ValidationResult",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L31",
+      "id": "ingestion_validator_validationresult",
+      "community": 2,
+      "norm_label": "validationresult"
+    },
+    {
+      "label": "validate_metadata()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L40",
+      "id": "ingestion_validator_validate_metadata",
+      "community": 2,
+      "norm_label": "validate_metadata()"
+    },
+    {
+      "label": "_ensure_access_roles()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L74",
+      "id": "ingestion_validator_ensure_access_roles",
+      "community": 2,
+      "norm_label": "_ensure_access_roles()"
+    },
+    {
+      "label": "_enforce_salary_rules()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L85",
+      "id": "ingestion_validator_enforce_salary_rules",
+      "community": 2,
+      "norm_label": "_enforce_salary_rules()"
+    },
+    {
+      "label": "_enforce_hr_record_rules()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L107",
+      "id": "ingestion_validator_enforce_hr_record_rules",
+      "community": 2,
+      "norm_label": "_enforce_hr_record_rules()"
+    },
+    {
+      "label": "_enforce_technical_rules()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L128",
+      "id": "ingestion_validator_enforce_technical_rules",
+      "community": 2,
+      "norm_label": "_enforce_technical_rules()"
+    },
+    {
+      "label": "_enforce_financial_rules()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L141",
+      "id": "ingestion_validator_enforce_financial_rules",
+      "community": 2,
+      "norm_label": "_enforce_financial_rules()"
+    },
+    {
+      "label": "_flag_low_confidence()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L156",
+      "id": "ingestion_validator_flag_low_confidence",
+      "community": 2,
+      "norm_label": "_flag_low_confidence()"
+    },
+    {
+      "label": "apply_defaults()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L197",
+      "id": "ingestion_validator_apply_defaults",
+      "community": 6,
+      "norm_label": "apply_defaults()"
+    },
+    {
+      "label": "Rule-based metadata validation layer. Safety net that enforces hard rules regard",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L1",
+      "id": "ingestion_validator_rationale_1",
+      "community": 2,
+      "norm_label": "rule-based metadata validation layer. safety net that enforces hard rules regard"
+    },
+    {
+      "label": "Result of metadata validation.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L32",
+      "id": "ingestion_validator_rationale_32",
+      "community": 2,
+      "norm_label": "result of metadata validation."
+    },
+    {
+      "label": "Validate and enforce metadata rules.      Args:         metadata: Metadata dict",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L41",
+      "id": "ingestion_validator_rationale_41",
+      "community": 2,
+      "norm_label": "validate and enforce metadata rules.      args:         metadata: metadata dict"
+    },
+    {
+      "label": "Check that access_roles is never empty.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L75",
+      "id": "ingestion_validator_rationale_75",
+      "community": 2,
+      "norm_label": "check that access_roles is never empty."
+    },
+    {
+      "label": "Enforce hard rules for salary/payroll content.     Any chunk containing salary k",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L86",
+      "id": "ingestion_validator_rationale_86",
+      "community": 2,
+      "norm_label": "enforce hard rules for salary/payroll content.     any chunk containing salary k"
+    },
+    {
+      "label": "Enforce that hr_record content_type always maps to [hr, c_suite].",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L108",
+      "id": "ingestion_validator_rationale_108",
+      "community": 2,
+      "norm_label": "enforce that hr_record content_type always maps to [hr, c_suite]."
+    },
+    {
+      "label": "Enforce that technical content_type always includes engineering.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L129",
+      "id": "ingestion_validator_rationale_129",
+      "community": 2,
+      "norm_label": "enforce that technical content_type always includes engineering."
+    },
+    {
+      "label": "Enforce that financial content_type always includes finance and c_suite.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L142",
+      "id": "ingestion_validator_rationale_142",
+      "community": 2,
+      "norm_label": "enforce that financial content_type always includes finance and c_suite."
+    },
+    {
+      "label": "Flag chunks where LLM confidence seems low.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L157",
+      "id": "ingestion_validator_rationale_157",
+      "community": 2,
+      "norm_label": "flag chunks where llm confidence seems low."
+    },
+    {
+      "label": "Apply safe defaults for missing fields.      Args:         metadata: Metadata di",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L198",
+      "id": "ingestion_validator_rationale_198",
+      "community": 6,
+      "norm_label": "apply safe defaults for missing fields.      args:         metadata: metadata di"
+    },
+    {
+      "label": "metadata_tagger.py",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L1",
+      "id": "backend_ingestion_metadata_tagger_py",
+      "community": 3,
+      "norm_label": "metadata_tagger.py"
+    },
+    {
+      "label": "tag_metadata()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L71",
+      "id": "ingestion_metadata_tagger_tag_metadata",
+      "community": 3,
+      "norm_label": "tag_metadata()"
+    },
+    {
+      "label": "_call_ollama()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L115",
+      "id": "ingestion_metadata_tagger_call_ollama",
+      "community": 3,
+      "norm_label": "_call_ollama()"
+    },
+    {
+      "label": "_parse_json_response()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L156",
+      "id": "ingestion_metadata_tagger_parse_json_response",
+      "community": 3,
+      "norm_label": "_parse_json_response()"
+    },
+    {
+      "label": "_merge_metadata()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L196",
+      "id": "ingestion_metadata_tagger_merge_metadata",
+      "community": 3,
+      "norm_label": "_merge_metadata()"
+    },
+    {
+      "label": "_validate_metadata()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L217",
+      "id": "ingestion_metadata_tagger_validate_metadata",
+      "community": 3,
+      "norm_label": "_validate_metadata()"
+    },
+    {
+      "label": "_get_default_metadata()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L265",
+      "id": "ingestion_metadata_tagger_get_default_metadata",
+      "community": 3,
+      "norm_label": "_get_default_metadata()"
+    },
+    {
+      "label": "LLM + rule-based metadata assignment. Uses Nemotron via Ollama to assign metadat",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L1",
+      "id": "ingestion_metadata_tagger_rationale_1",
+      "community": 3,
+      "norm_label": "llm + rule-based metadata assignment. uses nemotron via ollama to assign metadat"
+    },
+    {
+      "label": "Call Nemotron via Ollama to assign metadata to a chunk.      Args:         chunk",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L77",
+      "id": "ingestion_metadata_tagger_rationale_77",
+      "community": 3,
+      "norm_label": "call nemotron via ollama to assign metadata to a chunk.      args:         chunk"
+    },
+    {
+      "label": "Call Ollama API and parse JSON response.      Args:         prompt: Formatted pr",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L116",
+      "id": "ingestion_metadata_tagger_rationale_116",
+      "community": 3,
+      "norm_label": "call ollama api and parse json response.      args:         prompt: formatted pr"
+    },
+    {
+      "label": "Safely parse JSON from LLM response.      Args:         raw_output: Raw text fro",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L157",
+      "id": "ingestion_metadata_tagger_rationale_157",
+      "community": 3,
+      "norm_label": "safely parse json from llm response.      args:         raw_output: raw text fro"
+    },
+    {
+      "label": "Merge preliminary (rule-based) metadata with LLM-assigned metadata.     LLM valu",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L197",
+      "id": "ingestion_metadata_tagger_rationale_197",
+      "community": 3,
+      "norm_label": "merge preliminary (rule-based) metadata with llm-assigned metadata.     llm valu"
+    },
+    {
+      "label": "Validate metadata values against allowed enums.      Args:         metadata: Raw",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L218",
+      "id": "ingestion_metadata_tagger_rationale_218",
+      "community": 3,
+      "norm_label": "validate metadata values against allowed enums.      args:         metadata: raw"
+    },
+    {
+      "label": "Return safe default metadata when LLM fails.      Returns:         Default metad",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L266",
+      "id": "ingestion_metadata_tagger_rationale_266",
+      "community": 3,
+      "norm_label": "return safe default metadata when llm fails.      returns:         default metad"
+    },
+    {
+      "label": "ingest.py",
+      "file_type": "code",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L1",
+      "id": "backend_ingestion_ingest_py",
+      "community": 6,
+      "norm_label": "ingest.py"
+    },
+    {
+      "label": "ingest_directory()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L32",
+      "id": "ingestion_ingest_ingest_directory",
+      "community": 6,
+      "norm_label": "ingest_directory()"
+    },
+    {
+      "label": "_chunk_file()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L158",
+      "id": "ingestion_ingest_chunk_file",
+      "community": 6,
+      "norm_label": "_chunk_file()"
+    },
+    {
+      "label": "_print_summary()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L182",
+      "id": "ingestion_ingest_print_summary",
+      "community": 6,
+      "norm_label": "_print_summary()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L206",
+      "id": "ingestion_ingest_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Main ingestion pipeline runner. Routes files to chunkers, tags metadata, validat",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L1",
+      "id": "ingestion_ingest_rationale_1",
+      "community": 6,
+      "norm_label": "main ingestion pipeline runner. routes files to chunkers, tags metadata, validat"
+    },
+    {
+      "label": "Ingest all supported files from a directory.      Args:         data_dir: Path t",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L33",
+      "id": "ingestion_ingest_rationale_33",
+      "community": 6,
+      "norm_label": "ingest all supported files from a directory.      args:         data_dir: path t"
+    },
+    {
+      "label": "Route file to correct chunker based on extension.      Args:         file_path:",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L159",
+      "id": "ingestion_ingest_rationale_159",
+      "community": 6,
+      "norm_label": "route file to correct chunker based on extension.      args:         file_path:"
+    },
+    {
+      "label": "Print ingestion summary statistics.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L188",
+      "id": "ingestion_ingest_rationale_188",
+      "community": 6,
+      "norm_label": "print ingestion summary statistics."
+    },
+    {
+      "label": "chunker.py",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L1",
+      "id": "backend_ingestion_chunker_py",
+      "community": 0,
+      "norm_label": "chunker.py"
+    },
+    {
+      "label": "Chunk",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L36",
+      "id": "ingestion_chunker_chunk",
+      "community": 0,
+      "norm_label": "chunk"
+    },
+    {
+      "label": "estimate_tokens()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L54",
+      "id": "ingestion_chunker_estimate_tokens",
+      "community": 0,
+      "norm_label": "estimate_tokens()"
+    },
+    {
+      "label": "parse_headers()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L59",
+      "id": "ingestion_chunker_parse_headers",
+      "community": 0,
+      "norm_label": "parse_headers()"
+    },
+    {
+      "label": "build_breadcrumb()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L89",
+      "id": "ingestion_chunker_build_breadcrumb",
+      "community": 0,
+      "norm_label": "build_breadcrumb()"
+    },
+    {
+      "label": "is_table_block()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L118",
+      "id": "ingestion_chunker_is_table_block",
+      "community": 0,
+      "norm_label": "is_table_block()"
+    },
+    {
+      "label": "extract_table_block()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L125",
+      "id": "ingestion_chunker_extract_table_block",
+      "community": 0,
+      "norm_label": "extract_table_block()"
+    },
+    {
+      "label": "is_ascii_diagram()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L151",
+      "id": "ingestion_chunker_is_ascii_diagram",
+      "community": 0,
+      "norm_label": "is_ascii_diagram()"
+    },
+    {
+      "label": "is_appendix_section()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L158",
+      "id": "ingestion_chunker_is_appendix_section",
+      "community": 0,
+      "norm_label": "is_appendix_section()"
+    },
+    {
+      "label": "chunk_markdown()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L164",
+      "id": "ingestion_chunker_chunk_markdown",
+      "community": 0,
+      "norm_label": "chunk_markdown()"
+    },
+    {
+      "label": "chunk_excel_row()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L396",
+      "id": "ingestion_chunker_chunk_excel_row",
+      "community": 0,
+      "norm_label": "chunk_excel_row()"
+    },
+    {
+      "label": "chunk_excel_file()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L434",
+      "id": "ingestion_chunker_chunk_excel_file",
+      "community": 0,
+      "norm_label": "chunk_excel_file()"
+    },
+    {
+      "label": "Markdown chunking logic for FinSolve RAG. Implements the chunking strategy from",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L1",
+      "id": "ingestion_chunker_rationale_1",
+      "community": 0,
+      "norm_label": "markdown chunking logic for finsolve rag. implements the chunking strategy from"
+    },
+    {
+      "label": "Represents a document chunk with metadata.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L37",
+      "id": "ingestion_chunker_rationale_37",
+      "community": 0,
+      "norm_label": "represents a document chunk with metadata."
+    },
+    {
+      "label": "Estimate token count from text length.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L55",
+      "id": "ingestion_chunker_rationale_55",
+      "community": 0,
+      "norm_label": "estimate token count from text length."
+    },
+    {
+      "label": "Parse markdown headers and their positions.      Returns:         List of dicts",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L60",
+      "id": "ingestion_chunker_rationale_60",
+      "community": 0,
+      "norm_label": "parse markdown headers and their positions.      returns:         list of dicts"
+    },
+    {
+      "label": "Build header breadcrumb for a given header position.      Args:         headers:",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L90",
+      "id": "ingestion_chunker_rationale_90",
+      "community": 0,
+      "norm_label": "build header breadcrumb for a given header position.      args:         headers:"
+    },
+    {
+      "label": "Check if text contains a markdown table.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L119",
+      "id": "ingestion_chunker_rationale_119",
+      "community": 0,
+      "norm_label": "check if text contains a markdown table."
+    },
+    {
+      "label": "Extract a complete table block starting from position.      Returns:         (ta",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L126",
+      "id": "ingestion_chunker_rationale_126",
+      "community": 0,
+      "norm_label": "extract a complete table block starting from position.      returns:         (ta"
+    },
+    {
+      "label": "Check if text contains an ASCII diagram.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L152",
+      "id": "ingestion_chunker_rationale_152",
+      "community": 0,
+      "norm_label": "check if text contains an ascii diagram."
+    },
+    {
+      "label": "Check if a header is an appendix (glossary, contacts, etc.).",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L159",
+      "id": "ingestion_chunker_rationale_159",
+      "community": 0,
+      "norm_label": "check if a header is an appendix (glossary, contacts, etc.)."
+    },
+    {
+      "label": "Chunk markdown content according to FinSolve strategy.      Args:         conten",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L165",
+      "id": "ingestion_chunker_rationale_165",
+      "community": 0,
+      "norm_label": "chunk markdown content according to finsolve strategy.      args:         conten"
+    },
+    {
+      "label": "Chunk a single Excel row as an atomic chunk.      Args:         row_data: Dictio",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L397",
+      "id": "ingestion_chunker_rationale_397",
+      "community": 0,
+      "norm_label": "chunk a single excel row as an atomic chunk.      args:         row_data: dictio"
+    },
+    {
+      "label": "Read Excel file and create one chunk per row (one chunk per employee record).",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L435",
+      "id": "ingestion_chunker_rationale_435",
+      "community": 0,
+      "norm_label": "read excel file and create one chunk per row (one chunk per employee record)."
+    },
+    {
+      "label": "embedder.py",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L1",
+      "id": "backend_ingestion_embedder_py",
+      "community": 5,
+      "norm_label": "embedder.py"
+    },
+    {
+      "label": "_get_model()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L19",
+      "id": "ingestion_embedder_get_model",
+      "community": 5,
+      "norm_label": "_get_model()"
+    },
+    {
+      "label": "encode_dense()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L34",
+      "id": "ingestion_embedder_encode_dense",
+      "community": 5,
+      "norm_label": "encode_dense()"
+    },
+    {
+      "label": "encode_sparse()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L55",
+      "id": "ingestion_embedder_encode_sparse",
+      "community": 5,
+      "norm_label": "encode_sparse()"
+    },
+    {
+      "label": "encode_both()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L76",
+      "id": "ingestion_embedder_encode_both",
+      "community": 5,
+      "norm_label": "encode_both()"
+    },
+    {
+      "label": "clear_cache()",
+      "file_type": "code",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L114",
+      "id": "ingestion_embedder_clear_cache",
+      "community": 5,
+      "norm_label": "clear_cache()"
+    },
+    {
+      "label": "BGE-M3 embedding wrapper. Provides dense, sparse, and hybrid embeddings for FinS",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L1",
+      "id": "ingestion_embedder_rationale_1",
+      "community": 5,
+      "norm_label": "bge-m3 embedding wrapper. provides dense, sparse, and hybrid embeddings for fins"
+    },
+    {
+      "label": "Get or load the BGE-M3 model (cached after first load).      Returns:         Lo",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L20",
+      "id": "ingestion_embedder_rationale_20",
+      "community": 5,
+      "norm_label": "get or load the bge-m3 model (cached after first load).      returns:         lo"
+    },
+    {
+      "label": "Generate dense (semantic) embeddings for texts.      Args:         texts: List o",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L35",
+      "id": "ingestion_embedder_rationale_35",
+      "community": 5,
+      "norm_label": "generate dense (semantic) embeddings for texts.      args:         texts: list o"
+    },
+    {
+      "label": "Generate sparse (BM25-style) vectors for texts.      Args:         texts: List o",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L56",
+      "id": "ingestion_embedder_rationale_56",
+      "community": 5,
+      "norm_label": "generate sparse (bm25-style) vectors for texts.      args:         texts: list o"
+    },
+    {
+      "label": "Generate both dense and sparse vectors for hybrid retrieval.      Args:",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L77",
+      "id": "ingestion_embedder_rationale_77",
+      "community": 5,
+      "norm_label": "generate both dense and sparse vectors for hybrid retrieval.      args:"
+    },
+    {
+      "label": "Clear the cached model to free memory.",
+      "file_type": "rationale",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L115",
+      "id": "ingestion_embedder_rationale_115",
+      "community": 5,
+      "norm_label": "clear the cached model to free memory."
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "id": "frontend_package_json",
+      "community": 24,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "frontend/tailwind.config.js",
+      "source_location": "L1",
+      "id": "frontend_tailwind_config_js",
+      "community": 25,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_app_jsx",
+      "community": 26,
+      "norm_label": "app.jsx"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_main_jsx",
+      "community": 27,
+      "norm_label": "main.jsx"
+    },
+    {
+      "label": "useStream.js",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useStream.js",
+      "source_location": "L1",
+      "id": "frontend_src_hooks_usestream_js",
+      "community": 28,
+      "norm_label": "usestream.js"
+    },
+    {
+      "label": "useAuth.js",
+      "file_type": "code",
+      "source_file": "frontend/src/hooks/useAuth.js",
+      "source_location": "L1",
+      "id": "frontend_src_hooks_useauth_js",
+      "community": 29,
+      "norm_label": "useauth.js"
+    },
+    {
+      "label": "ProtectedRoute.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/auth/ProtectedRoute.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_auth_protectedroute_jsx",
+      "community": 30,
+      "norm_label": "protectedroute.jsx"
+    },
+    {
+      "label": "LoginPage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/auth/LoginPage.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_auth_loginpage_jsx",
+      "community": 31,
+      "norm_label": "loginpage.jsx"
+    },
+    {
+      "label": "ConversationHistory.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/layout/ConversationHistory.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_layout_conversationhistory_jsx",
+      "community": 32,
+      "norm_label": "conversationhistory.jsx"
+    },
+    {
+      "label": "RoleBadge.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/layout/RoleBadge.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_layout_rolebadge_jsx",
+      "community": 33,
+      "norm_label": "rolebadge.jsx"
+    },
+    {
+      "label": "Sidebar.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/layout/Sidebar.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_layout_sidebar_jsx",
+      "community": 34,
+      "norm_label": "sidebar.jsx"
+    },
+    {
+      "label": "MessageList.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/MessageList.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_messagelist_jsx",
+      "community": 35,
+      "norm_label": "messagelist.jsx"
+    },
+    {
+      "label": "UserMessage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/UserMessage.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_usermessage_jsx",
+      "community": 36,
+      "norm_label": "usermessage.jsx"
+    },
+    {
+      "label": "SourceCitations.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/SourceCitations.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_sourcecitations_jsx",
+      "community": 37,
+      "norm_label": "sourcecitations.jsx"
+    },
+    {
+      "label": "QueryInput.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/QueryInput.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_queryinput_jsx",
+      "community": 38,
+      "norm_label": "queryinput.jsx"
+    },
+    {
+      "label": "StreamingIndicator.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/StreamingIndicator.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_streamingindicator_jsx",
+      "community": 39,
+      "norm_label": "streamingindicator.jsx"
+    },
+    {
+      "label": "StatusBar.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/StatusBar.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_statusbar_jsx",
+      "community": 40,
+      "norm_label": "statusbar.jsx"
+    },
+    {
+      "label": "AssistantMessage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/AssistantMessage.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_assistantmessage_jsx",
+      "community": 41,
+      "norm_label": "assistantmessage.jsx"
+    },
+    {
+      "label": "GuardrailBlockedMessage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/chat/GuardrailBlockedMessage.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_chat_guardrailblockedmessage_jsx",
+      "community": 42,
+      "norm_label": "guardrailblockedmessage.jsx"
+    },
+    {
+      "label": "AuditLogViewer.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/admin/AuditLogViewer.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_components_admin_auditlogviewer_jsx",
+      "community": 43,
+      "norm_label": "auditlogviewer.jsx"
+    },
+    {
+      "label": "AuthContext.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/context/AuthContext.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_context_authcontext_jsx",
+      "community": 44,
+      "norm_label": "authcontext.jsx"
+    },
+    {
+      "label": "ChatContext.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/context/ChatContext.jsx",
+      "source_location": "L1",
+      "id": "frontend_src_context_chatcontext_jsx",
+      "community": 45,
+      "norm_label": "chatcontext.jsx"
+    },
+    {
+      "label": "client.js",
+      "file_type": "code",
+      "source_file": "frontend/src/api/client.js",
+      "source_location": "L1",
+      "id": "frontend_src_api_client_js",
+      "community": 46,
+      "norm_label": "client.js"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "main_py",
+      "target": "finsolve_rag_system_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_auth_dependencies_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_auth_jwt_handler_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_loginrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_userresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_logout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_get_me",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "backend_main_py",
+      "target": "backend_main_health_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "backend_main_rationale_1",
+      "target": "backend_main_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "backend_main_loginrequest",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "backend_main_loginresponse",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "backend_main_userresponse",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "backend_main_login",
+      "target": "backend_main_loginresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "backend_main_get_me",
+      "target": "backend_main_userresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "backend_main_rationale_96",
+      "target": "backend_main_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/main.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "backend_main_login",
+      "target": "auth_jwt_handler_create_jwt"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/main.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "backend_main_login",
+      "target": "auth_jwt_handler_set_jwt_cookie"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "backend_main_rationale_122",
+      "target": "backend_main_logout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "backend_main_rationale_134",
+      "target": "backend_main_get_me",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "backend_main_rationale_145",
+      "target": "backend_main_health_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "backend_auth_jwt_handler_py",
+      "target": "auth_jwt_handler_create_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "backend_auth_jwt_handler_py",
+      "target": "auth_jwt_handler_verify_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "backend_auth_jwt_handler_py",
+      "target": "auth_jwt_handler_set_jwt_cookie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "backend_auth_jwt_handler_py",
+      "target": "auth_jwt_handler_get_role_from_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "backend_auth_jwt_handler_py",
+      "target": "auth_jwt_handler_decode_token_from_cookie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_1",
+      "target": "backend_auth_jwt_handler_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "backend_auth_dependencies_py",
+      "target": "backend_auth_jwt_handler_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_34",
+      "target": "auth_jwt_handler_create_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_get_role_from_token",
+      "target": "auth_jwt_handler_verify_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_decode_token_from_cookie",
+      "target": "auth_jwt_handler_verify_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_65",
+      "target": "auth_jwt_handler_verify_jwt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "auth_dependencies_get_current_user",
+      "target": "auth_jwt_handler_verify_jwt"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_89",
+      "target": "auth_jwt_handler_set_jwt_cookie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_107",
+      "target": "auth_jwt_handler_get_role_from_token",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/jwt_handler.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "auth_jwt_handler_rationale_133",
+      "target": "auth_jwt_handler_decode_token_from_cookie",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "backend_auth_dependencies_py",
+      "target": "auth_dependencies_get_current_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "auth_dependencies_rationale_1",
+      "target": "backend_auth_dependencies_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/auth/dependencies.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "auth_dependencies_rationale_16",
+      "target": "auth_dependencies_get_current_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_retrieval_qdrant_client_py",
+      "target": "retrieval_qdrant_client_get_qdrant_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "backend_retrieval_qdrant_client_py",
+      "target": "retrieval_qdrant_client_initialize_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "backend_retrieval_qdrant_client_py",
+      "target": "retrieval_qdrant_client_create_payload_indexes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "backend_retrieval_qdrant_client_py",
+      "target": "retrieval_qdrant_client_ensure_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_rationale_1",
+      "target": "backend_retrieval_qdrant_client_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "backend_retrieval_qdrant_client_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_initialize_collection",
+      "target": "retrieval_qdrant_client_get_qdrant_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_rationale_33",
+      "target": "retrieval_qdrant_client_get_qdrant_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "retrieval_qdrant_client_get_qdrant_client"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_initialize_collection",
+      "target": "retrieval_qdrant_client_create_payload_indexes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_ensure_collection",
+      "target": "retrieval_qdrant_client_initialize_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_rationale_48",
+      "target": "retrieval_qdrant_client_initialize_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_rationale_85",
+      "target": "retrieval_qdrant_client_create_payload_indexes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/qdrant_client.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "retrieval_qdrant_client_rationale_116",
+      "target": "retrieval_qdrant_client_ensure_collection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "retrieval_qdrant_client_ensure_collection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "backend_retrieval_rbac_filter_py",
+      "target": "retrieval_rbac_filter_build_rbac_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "backend_retrieval_rbac_filter_py",
+      "target": "retrieval_rbac_filter_build_finance_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "retrieval_rbac_filter_rationale_1",
+      "target": "backend_retrieval_rbac_filter_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "retrieval_rbac_filter_build_rbac_filter",
+      "target": "retrieval_rbac_filter_build_finance_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "retrieval_rbac_filter_rationale_42",
+      "target": "retrieval_rbac_filter_build_rbac_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/retrieval/rbac_filter.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "retrieval_rbac_filter_rationale_94",
+      "target": "retrieval_rbac_filter_build_finance_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_validationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_validate_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_ensure_access_roles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_enforce_salary_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_enforce_hr_record_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_enforce_technical_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_enforce_financial_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_flag_low_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "backend_ingestion_validator_py",
+      "target": "ingestion_validator_apply_defaults",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_1",
+      "target": "backend_ingestion_validator_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "backend_ingestion_validator_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_validationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_32",
+      "target": "ingestion_validator_validationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_ensure_access_roles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_enforce_salary_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_enforce_hr_record_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_enforce_technical_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_enforce_financial_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "ingestion_validator_validate_metadata",
+      "target": "ingestion_validator_flag_low_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_41",
+      "target": "ingestion_validator_validate_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_validator_validate_metadata"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_75",
+      "target": "ingestion_validator_ensure_access_roles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_86",
+      "target": "ingestion_validator_enforce_salary_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_108",
+      "target": "ingestion_validator_enforce_hr_record_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_129",
+      "target": "ingestion_validator_enforce_technical_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_142",
+      "target": "ingestion_validator_enforce_financial_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_157",
+      "target": "ingestion_validator_flag_low_confidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/validator.py",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "ingestion_validator_rationale_198",
+      "target": "ingestion_validator_apply_defaults",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_validator_apply_defaults"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_tag_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_call_ollama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_parse_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_merge_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_validate_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "backend_ingestion_metadata_tagger_py",
+      "target": "ingestion_metadata_tagger_get_default_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_1",
+      "target": "backend_ingestion_metadata_tagger_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "backend_ingestion_metadata_tagger_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_tag_metadata",
+      "target": "ingestion_metadata_tagger_call_ollama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_tag_metadata",
+      "target": "ingestion_metadata_tagger_merge_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_tag_metadata",
+      "target": "ingestion_metadata_tagger_validate_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_77",
+      "target": "ingestion_metadata_tagger_tag_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_metadata_tagger_tag_metadata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_call_ollama",
+      "target": "ingestion_metadata_tagger_parse_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_call_ollama",
+      "target": "ingestion_metadata_tagger_get_default_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_116",
+      "target": "ingestion_metadata_tagger_call_ollama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_parse_json_response",
+      "target": "ingestion_metadata_tagger_get_default_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_157",
+      "target": "ingestion_metadata_tagger_parse_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_197",
+      "target": "ingestion_metadata_tagger_merge_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_218",
+      "target": "ingestion_metadata_tagger_validate_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/metadata_tagger.py",
+      "source_location": "L266",
+      "weight": 1.0,
+      "source": "ingestion_metadata_tagger_rationale_266",
+      "target": "ingestion_metadata_tagger_get_default_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "backend_ingestion_chunker_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "backend_ingestion_embedder_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "ingestion_ingest_ingest_directory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "ingestion_ingest_chunk_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "ingestion_ingest_print_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "backend_ingestion_ingest_py",
+      "target": "ingestion_ingest_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ingestion_ingest_rationale_1",
+      "target": "backend_ingestion_ingest_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_ingest_chunk_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_ingest_print_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "ingestion_ingest_main",
+      "target": "ingestion_ingest_ingest_directory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "ingestion_ingest_rationale_33",
+      "target": "ingestion_ingest_ingest_directory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "ingestion_ingest_ingest_directory",
+      "target": "ingestion_embedder_encode_both"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "ingestion_ingest_rationale_159",
+      "target": "ingestion_ingest_chunk_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "ingestion_ingest_chunk_file",
+      "target": "ingestion_chunker_chunk_markdown"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "ingestion_ingest_chunk_file",
+      "target": "ingestion_chunker_chunk_excel_file"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/ingest.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "ingestion_ingest_rationale_188",
+      "target": "ingestion_ingest_print_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_chunk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_parse_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_build_breadcrumb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_is_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_extract_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_is_ascii_diagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_is_appendix_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_chunk_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L396",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_chunk_excel_row",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L434",
+      "weight": 1.0,
+      "source": "backend_ingestion_chunker_py",
+      "target": "ingestion_chunker_chunk_excel_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_1",
+      "target": "backend_ingestion_chunker_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_chunk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L418",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_excel_row",
+      "target": "ingestion_chunker_chunk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_37",
+      "target": "ingestion_chunker_chunk",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L426",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_excel_row",
+      "target": "ingestion_chunker_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_55",
+      "target": "ingestion_chunker_estimate_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_parse_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_60",
+      "target": "ingestion_chunker_parse_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L184",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_build_breadcrumb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_90",
+      "target": "ingestion_chunker_build_breadcrumb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_is_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_119",
+      "target": "ingestion_chunker_is_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_extract_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_126",
+      "target": "ingestion_chunker_extract_table_block",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_is_ascii_diagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_152",
+      "target": "ingestion_chunker_is_ascii_diagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L217",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_markdown",
+      "target": "ingestion_chunker_is_appendix_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_159",
+      "target": "ingestion_chunker_is_appendix_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_165",
+      "target": "ingestion_chunker_chunk_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L461",
+      "weight": 1.0,
+      "source": "ingestion_chunker_chunk_excel_file",
+      "target": "ingestion_chunker_chunk_excel_row",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L397",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_397",
+      "target": "ingestion_chunker_chunk_excel_row",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/chunker.py",
+      "source_location": "L435",
+      "weight": 1.0,
+      "source": "ingestion_chunker_rationale_435",
+      "target": "ingestion_chunker_chunk_excel_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "backend_ingestion_embedder_py",
+      "target": "ingestion_embedder_get_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "backend_ingestion_embedder_py",
+      "target": "ingestion_embedder_encode_dense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "backend_ingestion_embedder_py",
+      "target": "ingestion_embedder_encode_sparse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "backend_ingestion_embedder_py",
+      "target": "ingestion_embedder_encode_both",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "backend_ingestion_embedder_py",
+      "target": "ingestion_embedder_clear_cache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_1",
+      "target": "backend_ingestion_embedder_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "ingestion_embedder_encode_dense",
+      "target": "ingestion_embedder_get_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "ingestion_embedder_encode_sparse",
+      "target": "ingestion_embedder_get_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "ingestion_embedder_encode_both",
+      "target": "ingestion_embedder_get_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_20",
+      "target": "ingestion_embedder_get_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_35",
+      "target": "ingestion_embedder_encode_dense",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_56",
+      "target": "ingestion_embedder_encode_sparse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_77",
+      "target": "ingestion_embedder_encode_both",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/ingestion/embedder.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "ingestion_embedder_rationale_115",
+      "target": "ingestion_embedder_clear_cache",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
